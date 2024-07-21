@@ -10,4 +10,4 @@ class Animal(ABC):
         print('Walking with {legs} legs'.format(legs=self.__legs_number))
 
     def eat(self):
-        print('Om Nom Nom')
+        pass

@@ -12,5 +12,3 @@ class VipOrder(Order):
         super().calculate_total_price()
         if self.order_customer.customer_discount is not None:
             self.order_total_price -= min(self.order_total_price, self.order_customer.customer_discount)
-
-            # self._Order__order_total_price = min(self._Order__order_total_price, self.order_customer.customer_discount)

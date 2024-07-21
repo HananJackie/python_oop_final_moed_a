@@ -10,7 +10,7 @@ spider.eat()
 print()
 
 print("Cat:")
-cat = Cat()
+cat = Cat("Garfield")
 print(f"Cat's name is {cat.get_name()}")
 cat.set_name("Garfield")
 print(f"Cat's new name is {cat.get_name()}")
